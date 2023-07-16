@@ -11,7 +11,7 @@ class ToDo {
         const task = new Task()
         const addBtn = document.getElementById("addBtn");
         addBtn.addEventListener("click", task.addTask)
-    }
-}
+    };
+};
 
-const todo = new ToDo()
+const todo = new ToDo();
