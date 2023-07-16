@@ -1,0 +1,48 @@
+body {
+    margin: auto;
+    text-align: center;
+    max-width: 80%;
+}
+
+h1 {
+    font-size: 39px;
+}
+
+h2 {
+    font-size: 29px;
+}
+
+.taskInput,
+.addBtn,
+.search {
+    font-size: 24px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 3px solid goldenrod;
+}
+
+.fas,
+.fa-toggle-on,
+.fa-toggle-off {
+    font-size: 34px;
+    position: fixed;
+}
+
+.fa-toggle-on {
+    top: 10%;
+    left: 90%;
+    display: none;
+}
+
+.fa-toggle-off {
+    top: 10%;
+    left: 90%;
+
+}
+
+.flex {
+    margin: 0 auto;
+    display: flex;
+    max-width: 60%;
+    justify-content: space-evenly;
+}
