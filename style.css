@@ -10,8 +10,6 @@ body {
     padding: 10px 0;
     max-width: 60%;
     min-height: 80vh;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 10%, rgba(255, 190, 255, 1) 50%, rgba(255, 255, 255, 1) 90%);
     border-radius: 20px;
 }
 
