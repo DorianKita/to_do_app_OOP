@@ -11,28 +11,32 @@
 </head>
 
 <body>
-    <h1>TO DO APP OOP</h1>
+    <div class="wrapper">
+        <h1>TO DO APP OOP</h1>
 
-    <div class="flex">
-        <section class="addTask">
-            <h2>Add task</h2>
-            <form action="">
-                <input id="taskInput" class="taskInput" type="text" placeholder="go for a walk...">
-                <button id="addBtn" class="addBtn">Add</button>
-            </form>
-        </section>
-        <section class="searchTask">
-            <h2>Search for task</h2>
-            <input type="text" id="searchTask" class="search" placeholder="search...">
-        </section>
+        <div class="flex">
+            <section class="addTask">
+                <h2>Add task</h2>
+                <form action="">
+                    <input id="taskInput" class="taskInput" type="text" placeholder="go for a walk...">
+                    <button id="addBtn" class="addBtn">Add</button>
+                </form>
+            </section>
+            <section class="searchTask">
+                <h2>Search for task</h2>
+                <input type="text" id="searchTask" class="search" placeholder="search...">
+            </section>
+        </div>
+        <div class="tasks">
+            <ul class="taskList">
+                <li>Zrobić zakupy</li>
+                <li>wyjsc z psem</li>
+                <li>zjesc babana</li>
+            </ul>
+        </div>
+        <i class="fas fa-toggle-on" style="color: #000;"></i>
+        <i class="fas fa-toggle-off"></i>
     </div>
-    <div class="tasks">
-        <ul class="taskList">
-
-        </ul>
-    </div>
-    <i class="fas fa-toggle-on" style="color: #000;"></i>
-    <i class="fas fa-toggle-off"></i>
     <script src="todo.js"></script>
 </body>
 
