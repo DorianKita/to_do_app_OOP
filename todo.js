@@ -7,7 +7,7 @@ class ToDo {
         button.addEventListener("click", bgc.blackMode)
         button2.addEventListener("click", bgc.brightMode)
 
-        //add task
+        //add task/remove task
         const task = new Task()
         const addBtn = document.getElementById("addBtn");
         addBtn.addEventListener("click", task.addTask)
