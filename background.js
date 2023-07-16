@@ -14,7 +14,7 @@ class Background {
         document.body.style.backgroundColor = "black";
         document.body.style.color = "white";
         this.wrapper.style.background = "rgb(0,0,0)";
-        this.wrapper.style.background = "linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(134,9,200,1) 50%, rgba(0,0,0,1) 90%)";
+        this.wrapper.style.background = "linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(200,9,183,1) 50%, rgba(0,0,0,1) 90%)";
     }
 
     brightMode = () => {
